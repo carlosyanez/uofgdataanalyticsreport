@@ -1,0 +1,23 @@
+Package: uofgdataanalyticsreport
+Title: R Markdown template to create assigment reports for UofG Data Analytics programmes.
+Version: 0.1
+Authors@R:
+    person(given = "Carlos",
+           family = "Yanez Santibanez",
+           role = c("aut", "cre"),
+           email = "carlos.yanez.s@gmail.com")
+Description: Provides an R Markdown template to use in Data Anlytics reports.
+License: usethis::use_cc0_license()
+Depends:
+    R (>= 4.0.0)
+Imports:
+    glue,
+    knitr (>= 1.12),
+    rmarkdown,
+    utils,
+    withr,
+    yaml
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
