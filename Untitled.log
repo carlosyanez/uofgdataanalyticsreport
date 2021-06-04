@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.6.3)  4 JUN 2021 09:55
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.6.3)  4 JUN 2021 19:08
  restricted system commands enabled.
 **Untitled.tex
 (./Untitled.tex
@@ -1583,14 +1583,6 @@ LaTeX Font Info:    Font shape `TU/regular.ttf(0)/b/n' will be
 LaTeX Font Info:    Font shape `TU/regular.ttf(0)/b/n' will be
 (Font)              scaled to size 11.03998pt on input line 176.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1] (./Untitled.aux)
 
@@ -1606,14 +1598,14 @@ Here is how much of LuaTeX's memory you used:
  551 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 63 glue_spec,
  8 attribute_list, 1 write, 1 user_defined nodes
-   avail lists: 1:3,2:197,3:72,4:27,5:99,6:30,7:1178,8:6,9:162,10:10,11:92
+   avail lists: 1:3,2:197,3:72,4:27,5:102,6:30,7:1178,8:6,9:162,10:10,11:92
  41911 multiletter control sequences out of 65536+600000
- 65 fonts using 13421263 bytes
+ 65 fonts using 13421303 bytes
  87i,11n,123p,1196b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
 </Library/Frameworks/R.framework/Versions/4.1/Resources/library/uofgdataanalytic
 sreport/indiedown/fonts/bold.ttf></Library/Frameworks/R.framework/Versions/4.1/R
 esources/library/uofgdataanalyticsreport/indiedown/fonts/regular.ttf>
-Output written on Untitled.pdf (2 pages, 50295 bytes).
+Output written on Untitled.pdf (2 pages, 50331 bytes).
 
 PDF statistics: 38 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream

@@ -2,7 +2,7 @@
 title           : "Assignment 00001"
 programme       : "MSC "
 subject         : "STAT 01 - Hellow Workd"
-author          : "Carlos Yanez Santibanez"
+author          : "Carlos Yáñez Santibáñez"
 date            : "10 June 2021"
 
 documentclass   : article   # article (default) report

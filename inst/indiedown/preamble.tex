@@ -65,16 +65,20 @@
 \renewcommand\maketitle{}
 
 %tex
+\usepackage{tcolorbox}
+\newtcolorbox{mybox}{colback=blue!5!white,colframe=blue!75!black}
+\newtcolorbox{mybox2}{colframe=gray!75!black,colframe=gray!50!black,opacityback=0.5}
+
 
 %fancy headers
 \usepackage{fancyhdr}
 
 \pagestyle{fancy}
 \fancyhead[L]{}
-\fancyhead[R]{ }
-\fancyfoot[L]{ }
-\fancyfoot[C]{ }
-\fancyfoot[R]{\thepage}
+\fancyhead[R]{}
+\fancyfoot[L]{}
+\fancyfoot[C]{\thepage}
+\fancyfoot[R]{}
 
 
 

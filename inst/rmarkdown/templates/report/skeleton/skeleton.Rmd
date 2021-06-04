@@ -13,15 +13,28 @@ output          : uofgdataanalyticsreport::uofgdataanalyticsreport
 ---
 
 
-```{r, include = FALSE}
-library(knitr)
-library(kableExtra)
-library(tidyverse)
-library(uofgdataanalyticsreport)
+```{r setup, include = FALSE}
+
+knitr::opts_chunk$set(include = FALSE)
+
+if(!require(librarian, quiet=TRUE)){
+  if(!require(remotes, quiet=TRUE)) install.packages("remotes")
+  remotes::install_github("DesiQuintans/librarian")   #version from CRAN does not work correctly in Windows
+} 
+
+librarian::shelf("knitr",
+                 "kableExtra",
+                 "tidyverse",
+                 "carlosyanez/uofgdataanalyticsreport"  #template librart
+                 )
+
 cd_knit_chunk_opts()
+
+ggplot2::theme_set(ggplot2::theme_minimal())
+
 ```
 
-```{r}
+```{r title_page, echo=FALSE,include=TRUE}
 cd_page_title()
 ```
 
