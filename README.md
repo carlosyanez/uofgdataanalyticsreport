@@ -5,4 +5,4 @@ Template for UofG Data Analytics Reports
  devtools::install_github("carlosyanez/uofgdataanalyticsreport")
  
 ## Example
-![](example/Example.pdf)
+Sample output [here](example/Example.pdf)
