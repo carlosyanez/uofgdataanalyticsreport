@@ -16,7 +16,8 @@ Imports:
     rmarkdown,
     utils,
     withr,
-    yaml
+    yaml,
+    bookdown
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

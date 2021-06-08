@@ -7,9 +7,15 @@ date            : "Today"
 
 documentclass   : article   # article (default) report
 fontsize        : 11pt      # 10pt 11pt (default) 12pt
-numbersections  : true
 
-output          : uofgdataanalyticsreport::uofgdataanalyticsreport
+output:
+  bookdown::pdf_book:
+    base_format: uofgdataanalyticsreport::uofgdataanalyticsreport
+    fig_caption: yes
+    number_sections: yes
+    toc: no
+    md_extensions: +yaml_metadata_block
+
 ---
 
 

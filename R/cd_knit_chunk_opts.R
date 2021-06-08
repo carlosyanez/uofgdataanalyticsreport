@@ -17,6 +17,7 @@ cd_knit_chunk_opts <- function(twocolumn = default(rmarkdown::metadata$twocolumn
                                fig.width = NULL,
                                fig.height = NULL,
                                fig.pos = "h",
+                               fig.caption= "Caption Needed (add fig.caption as chunk option)",
                                message = FALSE,
                                echo = FALSE) {
 
@@ -35,6 +36,7 @@ cd_knit_chunk_opts <- function(twocolumn = default(rmarkdown::metadata$twocolumn
   knitr::opts_chunk$set(
     fig.width = fig.width,
     fig.height = fig.height,
+    fig.caption = fig.caption,
     fig.pos = fig.pos,
     message = message,
     echo = echo
