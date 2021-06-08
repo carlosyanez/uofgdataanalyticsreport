@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.6.7)  8 JUN 2021 11:03
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.6.7)  8 JUN 2021 13:46
  restricted system commands enabled.
 **Example.tex
 (./Example.tex
@@ -1863,59 +1863,49 @@ LaTeX Font Info:    Font shape `TU/regular.ttf(0)/m/n' will be
 }</Library/Frameworks/R.framework/Versions/4.1/Resources/library/uofgdataanalyti
 csreport/indiedown/res/logo.png>]
 LaTeX Font Info:    Font shape `TU/regular.ttf(0)/b/n' will be
-(Font)              scaled to size 10.07397pt on input line 189.
+(Font)              scaled to size 10.07397pt on input line 187.
 LaTeX Font Info:    Font shape `TU/regular.ttf(0)/b/n' will be
-(Font)              scaled to size 11.03998pt on input line 189.
-<Example_files/figure-latex/helloworld-1.pdf, id=20, 516.93124pt x 242.9075pt>
+(Font)              scaled to size 11.03998pt on input line 187.
+(./Example.toc)
+\tf@toc=\write5
+
+\openout5 = Example.toc
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1]
+<Example_files/figure-latex/helloworld-1.pdf, id=25, 516.93124pt x 242.9075pt>
 File: Example_files/figure-latex/helloworld-1.pdf Graphic file (type pdf)
 <use Example_files/figure-latex/helloworld-1.pdf>
 Package luatex.def Info: Example_files/figure-latex/helloworld-1.pdf  used on i
-nput line 193.
+nput line 197.
 (luatex.def)             Requested size: 455.26373pt x 213.92973pt.
-
-LaTeX Warning: Reference `fig:helloworld' on page 1 undefined on input line 195
-.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1<./Example_files/figure-latex/helloworld-1.pdf>] (./Example.aux)
+[2
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.1'
+<./Example_files/figure-latex/helloworld-1.pdf>] (./Example.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Example.out' has not changed.
 (rerunfilecheck)             Checksum: 0C22870D0EF59496ED70BEF37329A2DA;202.
 )
 
 Here is how much of LuaTeX's memory you used:
- 31742 strings out of 478087
+ 31759 strings out of 478087
  125081,1144653 words of node,token memory allocated
  568 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 9 attribute, 65 glue_spec,
  9 attribute_list, 2 write, 1 user_defined nodes
-   avail lists: 1:3,2:207,3:71,4:27,5:108,6:30,7:1256,8:7,9:165,10:10,11:94
- 50938 multiletter control sequences out of 65536+600000
- 65 fonts using 13421423 bytes
- 87i,12n,123p,1195b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
-</Users/carlosyanez/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm-math/lat
-inmodern-math.otf></Library/Frameworks/R.framework/Versions/4.1/Resources/librar
-y/uofgdataanalyticsreport/indiedown/fonts/bold.ttf></Library/Frameworks/R.framew
-ork/Versions/4.1/Resources/library/uofgdataanalyticsreport/indiedown/fonts/regul
-ar.ttf>
-Output written on Example.pdf (2 pages, 59114 bytes).
+   avail lists: 1:3,2:213,3:81,4:27,5:108,6:30,7:1322,8:13,9:165,10:10,11:98
+ 50944 multiletter control sequences out of 65536+600000
+ 65 fonts using 13421223 bytes
+ 87i,11n,123p,1195b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
+</Library/Frameworks/R.framework/Versions/4.1/Resources/library/uofgdataanalytic
+sreport/indiedown/fonts/bold.ttf></Library/Frameworks/R.framework/Versions/4.1/R
+esources/library/uofgdataanalyticsreport/indiedown/fonts/regular.ttf>
+Output written on Example.pdf (3 pages, 57834 bytes).
 
-PDF statistics: 55 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 131072)
+PDF statistics: 57 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 131072)
  24 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -3,6 +3,7 @@
 export(cd_format_date)
 export(cd_knit_chunk_opts)
 export(cd_page_title)
+export(cd_toc)
 export(default)
 export(indiedown_glue)
 export(indiedown_path)
