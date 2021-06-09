@@ -4,8 +4,11 @@ export(cd_format_date)
 export(cd_knit_chunk_opts)
 export(cd_page_title)
 export(cd_toc)
+export(cd_header_footer)
 export(default)
 export(indiedown_glue)
 export(indiedown_path)
 export(indiedown_path_tex)
 export(uofgdataanalyticsreport)
+
+

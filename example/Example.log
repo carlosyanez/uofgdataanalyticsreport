@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.6.7)  8 JUN 2021 13:46
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.6.7)  9 JUN 2021 20:56
  restricted system commands enabled.
 **Example.tex
 (./Example.tex
@@ -298,7 +298,7 @@ e=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/regular.ttf(0)/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 22.
+(Font)              scaled to size 10.07397pt on input line 23.
 
 Package fontspec Info: regular scale = 0.9199939862950829.
 
@@ -355,13 +355,13 @@ e=base;script=latn;language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/regular.ttf(1)/m/n on input line 22.
+(Font)                  OT1/lmr/m/n --> TU/regular.ttf(1)/m/n on input line 23.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/lmr/m/it --> TU/regular.ttf(1)/m/it on input line 2
-2.
+3.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/regular.ttf(1)/b/n on input line 22
+(Font)                  OT1/lmr/bx/n --> TU/regular.ttf(1)/b/n on input line 23
 .
 (/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
@@ -1076,7 +1076,52 @@ rs
 \f@nch@O@erf=\skip80
 \f@nch@O@olf=\skip81
 \f@nch@O@orf=\skip82
+) (/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/06/02 3.60 The Babel package
+(/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/06/02 3.60 Babel common definitions
+(/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/generic/babel/luababel.def
+\bbl@readstream=\read4
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@nohyphenation=\language3
+\l@german-x-2021-02-26=\language4
+\l@ngerman-x-2021-02-26=\language5
+\babelcatcodetablenum=\catcodetable12
+\bbl@pattcodes=\catcodetable13
 )
+\babel@savecnt=\count334
+\U@D=\dimen303
+\l@unhyphenated=\language6
+(/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute5
+))
+(/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/generic/babel-english/britis
+h.ldf
+Language: british 2017/06/06 v3.3r English support from the babel system
+
+(/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/generic/babel-english/englis
+h.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'british' set to \l@english
+(babel)             (\language0). Reported on input line 82.
+Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
+(babel)             (\language0). Reported on input line 83.
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@english
+(babel)             (\language0). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@english
+(babel)             (\language0). Reported on input line 108.
+))
+(/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/generic/babel-english/britis
+h.ldf
+Language: british 2017/06/06 v3.3r English support from the babel system
+
+(/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/generic/babel-english/englis
+h.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+)))
 (/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/lualatex/selnolig/selnolig.s
 ty
 === Package selnolig, Version 0.302, Date 2015/10/26 ===
@@ -1089,43 +1134,50 @@ Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX
 (/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/luatex/ctablestack/ctablesta
 ck.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count334
+\@catcodetablestackcnt=\count335
 )
-\CatcodeTableOther=\catcodetable12
-\CatcodeTableExpl=\catcodetable13
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
 )
-Inserting `Suppress ligatures selectively' at position 1 in `ligaturing'.) (./E
-xample.aux)
+Inserting `Suppress ligatures selectively' at position 1 in `ligaturing'.
+(/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/lualatex/selnolig/selnolig-e
+nglish-patterns.sty
+Package: selnolig-english-patterns 2015/10/26
+)
+(/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/lualatex/selnolig/selnolig-e
+nglish-hyphex.sty
+Package: selnolig-english-hyphex 2015/10/26
+)) (./Example.aux)
 \openout1 = Example.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 159.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 166.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 159.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 166.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 159.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 166.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 159.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 166.
 
 Package fontspec Info: latinmodern-math scale = 1.127729190578574.
 
@@ -1160,7 +1212,7 @@ e;script=math;language=dflt;"
 (fontspec)             \__um_luatex_copy_fontdimens: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 12.34865pt on input line 159.
+(Font)              scaled to size 12.34865pt on input line 166.
 
 Package fontspec Info: latinmodern-math scale = 1.127729190578574.
 
@@ -1205,18 +1257,18 @@ e;script=math;language=dflt;"
 (fontspec)             \__um_luatex_copy_fontdimens: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.34865pt on input line 159.
+(Font)              scaled to size 12.34865pt on input line 166.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 159.
+(Font)              `operators' in the math version `normal' on input line 166.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 159.
+ line 166.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 159.
+(Font)              `operators' in the math version `bold' on input line 166.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 159.
+t line 166.
 
 Package fontspec Info: latinmodern-math scale = 1.127729190578574.
 
@@ -1307,15 +1359,15 @@ e;script=math;language=dflt;"
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 159.
+(Font)              `symbols' in the math version `normal' on input line 166.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 159.
+t line 166.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 159.
+(Font)              `symbols' in the math version `bold' on input line 166.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 159.
+t line 166.
 
 Package fontspec Info: latinmodern-math scale = 1.127729190578574.
 
@@ -1389,55 +1441,55 @@ e;script=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 1
-59.
+66.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 159.
+t line 166.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 159
+(Font)              `largesymbols' in the math version `bold' on input line 166
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 159.
+t line 166.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.64404pt on input line 159.
+(Font)              scaled to size 8.64404pt on input line 166.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.17433pt on input line 159.
+(Font)              scaled to size 6.17433pt on input line 166.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-59.
+66.
 (/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.34982pt on input line 159.
+(Font)              scaled to size 12.34982pt on input line 166.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.64487pt on input line 159.
+(Font)              scaled to size 8.64487pt on input line 166.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.17491pt on input line 159.
+(Font)              scaled to size 6.17491pt on input line 166.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 12.3473pt on input line 159.
+(Font)              scaled to size 12.3473pt on input line 166.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.64311pt on input line 159.
+(Font)              scaled to size 8.64311pt on input line 166.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.17366pt on input line 159.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 159
+(Font)              scaled to size 6.17366pt on input line 166.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 166
 .
 (/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 159
+LaTeX Font Info:    Trying to load font information for U+msb on input line 166
 .
 (/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Info: Redefining \microtypecontext on input line 159.
+LaTeX Info: Redefining \microtypecontext on input line 166.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 159.
+LaTeX Info: Redefining \showhyphens on input line 166.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -1769,7 +1821,7 @@ ys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 159.
+Package hyperref Info: Link coloring OFF on input line 166.
 (/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/Users/carlosyanez/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1779,11 +1831,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 tlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count335
+\c@section@level=\count336
 )
-LaTeX Info: Redefining \ref on input line 159.
-LaTeX Info: Redefining \pageref on input line 159.
-LaTeX Info: Redefining \nameref on input line 159.
+LaTeX Info: Redefining \ref on input line 166.
+LaTeX Info: Redefining \pageref on input line 166.
+LaTeX Info: Redefining \nameref on input line 166.
 (./Example.out) (./Example.out)
 \@outlinefile=\write4
 
@@ -1829,47 +1881,55 @@ alyticsreport/indiedown/res/logo.png Graphic file (type png)
 <use /Library/Frameworks/R.framework/Versions/4.1/Resources/library/uofgdataana
 lyticsreport/indiedown/res/logo.png>
 Package luatex.def Info: /Library/Frameworks/R.framework/Versions/4.1/Resources
-/library/uofgdataanalyticsreport/indiedown/res/logo.png  used on input line 165
+/library/uofgdataanalyticsreport/indiedown/res/logo.png  used on input line 179
 .
 (luatex.def)             Requested size: 166.10013pt x 38.90524pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 
 LaTeX Font Warning: Font shape `TU/regular.ttf(0)/m/sc' undefined
-(Font)              using `TU/regular.ttf(0)/m/n' instead on input line 169.
+(Font)              using `TU/regular.ttf(0)/m/n' instead on input line 183.
 
 LaTeX Font Info:    Font shape `TU/regular.ttf(0)/m/sc' will be
-(Font)              scaled to size 15.89755pt on input line 169.
+(Font)              scaled to size 15.89755pt on input line 183.
 LaTeX Font Info:    Font shape `TU/regular.ttf(0)/m/sc' will be
-(Font)              scaled to size 10.07397pt on input line 170.
+(Font)              scaled to size 10.07397pt on input line 184.
 LaTeX Font Info:    Font shape `TU/regular.ttf(0)/m/sc' will be
-(Font)              scaled to size 19.08076pt on input line 176.
+(Font)              scaled to size 19.08076pt on input line 190.
 
 LaTeX Font Warning: Font shape `TU/regular.ttf(0)/b/sc' undefined
-(Font)              using `TU/regular.ttf(0)/b/n' instead on input line 176.
+(Font)              using `TU/regular.ttf(0)/b/n' instead on input line 190.
 
 LaTeX Font Info:    Font shape `TU/regular.ttf(0)/b/n' will be
-(Font)              scaled to size 19.08076pt on input line 176.
+(Font)              scaled to size 19.08076pt on input line 190.
 LaTeX Font Info:    Font shape `TU/regular.ttf(0)/m/n' will be
-(Font)              scaled to size 19.08076pt on input line 177.
+(Font)              scaled to size 19.08076pt on input line 191.
 LaTeX Font Info:    Font shape `TU/regular.ttf(0)/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 183.
+(Font)              scaled to size 11.03998pt on input line 197.
 [1
 
 {/Users/carlosyanez/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 }</Library/Frameworks/R.framework/Versions/4.1/Resources/library/uofgdataanalyti
 csreport/indiedown/res/logo.png>]
 LaTeX Font Info:    Font shape `TU/regular.ttf(0)/b/n' will be
-(Font)              scaled to size 10.07397pt on input line 187.
+(Font)              scaled to size 10.07397pt on input line 201.
 LaTeX Font Info:    Font shape `TU/regular.ttf(0)/b/n' will be
-(Font)              scaled to size 11.03998pt on input line 187.
+(Font)              scaled to size 11.03998pt on input line 201.
 (./Example.toc)
 \tf@toc=\write5
 
 \openout5 = Example.toc
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1]
@@ -1877,8 +1937,16 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 File: Example_files/figure-latex/helloworld-1.pdf Graphic file (type pdf)
 <use Example_files/figure-latex/helloworld-1.pdf>
 Package luatex.def Info: Example_files/figure-latex/helloworld-1.pdf  used on i
-nput line 197.
+nput line 211.
 (luatex.def)             Requested size: 455.26373pt x 213.92973pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [2
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.1'
 <./Example_files/figure-latex/helloworld-1.pdf>] (./Example.aux)
@@ -1890,19 +1958,19 @@ Package rerunfilecheck Info: File `Example.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 31759 strings out of 478087
- 125081,1144653 words of node,token memory allocated
- 568 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 9 attribute, 65 glue_spec,
- 9 attribute_list, 2 write, 1 user_defined nodes
-   avail lists: 1:3,2:213,3:81,4:27,5:108,6:30,7:1322,8:13,9:165,10:10,11:98
- 50944 multiletter control sequences out of 65536+600000
- 65 fonts using 13421223 bytes
- 87i,11n,123p,1195b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32658 strings out of 478087
+ 125081,1373583 words of node,token memory allocated
+ 576 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 13 attribute, 65 glue_spec
+, 9 attribute_list, 2 write, 1 user_defined nodes
+   avail lists: 1:1,2:319,3:81,4:29,5:108,6:30,7:1410,8:13,9:165,10:10,11:104
+ 51763 multiletter control sequences out of 65536+600000
+ 65 fonts using 13421263 bytes
+ 87i,11n,123p,1195b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
 </Library/Frameworks/R.framework/Versions/4.1/Resources/library/uofgdataanalytic
 sreport/indiedown/fonts/bold.ttf></Library/Frameworks/R.framework/Versions/4.1/R
 esources/library/uofgdataanalyticsreport/indiedown/fonts/regular.ttf>
-Output written on Example.pdf (3 pages, 57834 bytes).
+Output written on Example.pdf (3 pages, 58257 bytes).
 
 PDF statistics: 57 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream

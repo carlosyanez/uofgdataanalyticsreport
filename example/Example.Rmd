@@ -7,6 +7,7 @@ date            : "10 June 2021"
 
 documentclass   : article   # article (default) report
 fontsize        : 11pt      # 10pt 11pt (default) 12pt
+lang            : en-GB
 
 # more information about this at https://bookdown.org/yihui/rmarkdown/pdf-document.html
 output:
@@ -27,6 +28,7 @@ cd_knit_chunk_opts()
 ```
 
 ```{r}
+cd_header_footer()
 cd_page_title()
 cd_toc()
 ```
