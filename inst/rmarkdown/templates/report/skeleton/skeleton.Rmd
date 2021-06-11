@@ -22,7 +22,6 @@ output:
 
 ```{r setup, include = FALSE}
 
-knitr::opts_chunk$set(include = FALSE)
 
 if(!require(librarian, quiet=TRUE)){
   if(!require(remotes, quiet=TRUE)) install.packages("remotes")
@@ -32,11 +31,15 @@ if(!require(librarian, quiet=TRUE)){
 librarian::shelf("knitr",
                  "kableExtra",
                  "tidyverse",
-                 "carlosyanez/uofgdataanalyticsreport"  #template librart
+                 "carlosyanez/uofgdataanalyticsreport"  #template library
                  )
 
+#knitting options
 cd_knit_chunk_opts()
+knitr::opts_chunk$set(include = FALSE)
+knitr::knit_hooks$set(inline = function(x) { if(!is.numeric(x)){ x }else{ formatC(x,big.mark = " ",digits = 3,format="f") } })
 
+#set a minimal ggplot theme
 ggplot2::theme_set(ggplot2::theme_minimal())
 
 ```
