@@ -7,11 +7,20 @@
 #' @param footer_right Rigt Footer
 #' @return Object of class `"knit_asis"` (so that knitr will treat it as is). LaTeX code for header and footer.
 #' @export
-cd_header_footer <- function(head_left = default(rmarkdown::metadata$subject, ""),
-                        head_right= default(rmarkdown::metadata$title, ""),
+cd_header_footer <- function(head_left = NA,
+                        head_right= default(rmarkdown::metadata$author, ""),
                         footer_left="",
                         footer_centre="\\thepage",
-                        footer_right="") {
+                        footer_right="",
+                        title=default(rmarkdown::metadata$title, ""),
+                        subject=default(rmarkdown::metadata$subject, "")
+                        ) {
+  
+     if(is.na(head_left)){
+        course_code <- str_extract(subject,'STATS\\d{1,9}')
+        if(!is.na(course_code)) subject <- course_code
+        head_left <- str_c(subject," - ",title)   
+     }
     indiedown_glue(
       r"(
       \fancyhead[L]{<<head_left>>} 
