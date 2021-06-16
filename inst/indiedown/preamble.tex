@@ -104,5 +104,10 @@
      z = {\'z,\.z,\v z}
    }
 
-
+%remove microtype warning
+\makeatletter
+\def\MT@warn@unknown{}
+\makeatother
+%fix fancyhdr warning
+\setlength{\headheight}{13.59999pt}
 
