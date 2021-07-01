@@ -6,7 +6,7 @@ Authors@R:
            family = "Yanez Santibanez",
            role = c("aut", "cre"),
            email = "carlos.yanez.s@gmail.com")
-Description: Provides an R Markdown template to use in Data Anlytics reports.
+Description: Provides an R Markdown template to use in Data Analytics reports.
 License: usethis::use_cc0_license()
 Depends:
     R (>= 4.0.0)
