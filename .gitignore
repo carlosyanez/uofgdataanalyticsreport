@@ -31,7 +31,6 @@ inst/indiedown/.DS_Store
 .Rhistory
 .DS_Store
 .DS_Store
-inst/doc
 /doc/
 /Meta/
 .DS_Store
@@ -39,4 +38,5 @@ inst/doc
 .Rhistory
 .Rproj.user/10D101C3/pcs/source-pane.pper
 .Rproj.user/10D101C3/pcs/windowlayoutstate.pper
+.Rproj.user/10D101C3/sources/prop/INDEX
 .Rproj.user/10D101C3/sources/prop/INDEX

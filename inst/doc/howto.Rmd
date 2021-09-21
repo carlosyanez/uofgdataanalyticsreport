@@ -1,0 +1,90 @@
+---
+title: "How to use this template"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{How to use}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+knitr::opts_chunk$set(include = FALSE)
+library(uofgdataanalyticsreport)
+```
+
+<img src="https://github.com/carlosyanez/uofgdataanalyticsreport/raw/main/img/hexSticker.png" width = "175" height = "200" align="right" border=0 style="border:0; text-decoration:none; outline:none"/>
+
+# UofG Data Analytics Report
+
+Template for university reports for University of Glasgow's Data Analytics programmes. 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## Create Report from Template
+
+After installation, simply use RStudio's menu to create a new document from the provided template:
+
+<center>
+
+![](https://github.com/carlosyanez/uofgdataanalyticsreport/raw/main/img/howto1.png){width="80%" heigth="80%"}
+
+</center>
+
+<center>
+
+![](https://github.com/carlosyanez/uofgdataanalyticsreport/raw/main/img/howto2.png){width="80%" heigth="80%"}
+
+</center>
+
+## Modifiy settings
+
+First, edit the YAML code at the top of the document, to modify your document's *title* (e.g Project), *programme* (e.g. Data Analytics MSc), *subject* (STAT123 - R Programming), *author* (your name), and *date* (due date).
+
+If you know a bit about it, you can also review the rest of the YAML code to change other document properites,like font size and figure captioning
+
+After, that you can modify knitting options in the *setup* chunk.
+
+<center>
+
+![](https://github.com/carlosyanez/uofgdataanalyticsreport/raw/main/img/howto3.png){width="80%" heigth="80%"}
+
+</center>
+
+In addition, the *title_page* chunk contains functions that generate the below document properties - you can remove them or edit them (look at *?function* to see input options):
+
+-   **cd_header_footer()** generates the header and footer in each page.
+-   **cd_page_title()** creates the document's front (title) page.
+-   **cd_toc()** creates the table of contents.
+
+
+<center>
+
+![](https://github.com/carlosyanez/uofgdataanalyticsreport/raw/main/img/howto4.png){width="80%" heigth="80%"}
+
+</center>
+
+## Sample document
+
+You can see a sample pdf [here](https://github.com/carlosyanez/uofgdataanalyticsreport/blob/main/example/Example.pdf).
+
+## Credits and disclaimer
+
+This template has been created using [{indiedown}](https://cynkra.github.io/indiedown/index.html).
+
+Images are logos are property of the University of Glasgow. They are used  here with the sole purpose of generating university reports or assignments.
+
