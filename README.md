@@ -6,18 +6,19 @@ Template for UofG Data Analytics Reports, using Google's Roboto font.
 ## Install
 You can install this template with:
 
+```
  devtools::install_github("carlosyanez/uofgdataanalyticsreport")
+ ```
  
 Alternatively, you can install it from [r-universe](https://r-universe.dev/) 
 
-  # Enable this universe
+```
   options(repos = c(
           carlosyanez = 'https://carlosyanez.r-universe.dev',
           CRAN = 'https://cloud.r-project.org'))
 
-  # Install some packages
   install.packages('uofgdataanalyticsreport')
-
+```
 
  
 ## Sample
