@@ -2,7 +2,7 @@
 title: "How to use this template"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{How to use}
+  %\VignetteIndexEntry{How to use this template}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

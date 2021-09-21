@@ -1,0 +1,33 @@
+template:
+  params:
+    bootswatch: yeti
+    ganalytics: G-G75W4FBYH8
+  opengraph:
+    image:
+      src: img/bbox_ghcard.png
+      alt: "uofgdataanalyticsreport: Template for UofG Data Analytics reports"
+    twitter:
+      creator: "@carlosyanez"
+      card: summary_large_image
+
+navbar:
+  structure:
+    left:  [home, reference,articles]
+    right: [github]
+repo:
+  url:
+    home: https://github.com/carlosyanez/uofgdataanalyticsreport/
+    issues: https://github.com/carlosyanez/uofgdataanalyticsreport/issues/
+    user: https://github.com/carlosyanez/
+authors:
+  Carlos Yanez Santibanez:
+    href: http://www.carlosyanez.cl
+url: https://carlosyanez.github.io/uofgdataanalyticsreport
+home:
+  title: uofgdataanalyticsreport
+  description: Template for UofG Data Analytics reports.
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{How to use this template}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}

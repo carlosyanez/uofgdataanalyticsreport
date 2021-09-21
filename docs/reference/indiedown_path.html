@@ -12,8 +12,8 @@
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <!-- Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/yeti/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous" />
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
 
@@ -44,6 +44,11 @@
 located at inst/indiedown.
 indiedown_path_tex() creates a path that is usable in LaTeX,
 with all special characters escaped." />
+<meta property="og:image" content="https://carlosyanez.github.io/uofgdataanalyticsreport/img/bbox_ghcard.png" />
+<meta property="og:image:alt" content="uofgdataanalyticsreport: Template for UofG Data Analytics reports" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@carlosyanez" />
+<meta name="twitter:site" content="@carlosyanez" />
 
 
 
@@ -57,6 +62,16 @@ with all special characters escaped." />
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G75W4FBYH8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G75W4FBYH8');
+</script>
 
 
   </head>
@@ -104,7 +119,12 @@ with all special characters escaped." />
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/carlosyanez/uofgdataanalyticsreport/">
+    <span class="fab fa-github fa-lg"></span>
+     
+  </a>
+</li>
       </ul>
       
     </div><!--/.nav-collapse -->
@@ -149,7 +169,7 @@ with all special characters escaped.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'>indiedown_path</span><span class='op'>(</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; [1] "/private/var/folders/tt/mtcvf7kx02v3zckwg5r3vf1w0000gn/T/Rtmpk3F6t3/temp_libpath17ca6542112ca/uofgdataanalyticsreport/indiedown"</div></pre>
+</div><div class='output co'>#&gt; [1] "/private/var/folders/tt/mtcvf7kx02v3zckwg5r3vf1w0000gn/T/Rtmpk3F6t3/temp_libpath17ca62a66c3c3/uofgdataanalyticsreport/indiedown"</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
@@ -161,7 +181,7 @@ with all special characters escaped.</p>
 
       <footer>
       <div class="copyright">
-  <p>Developed by Carlos Yanez Santibanez.</p>
+  <p>Developed by <a href='http://www.carlosyanez.cl'>Carlos Yanez Santibanez</a>.</p>
 </div>
 
 <div class="pkgdown">

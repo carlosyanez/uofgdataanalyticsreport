@@ -5,18 +5,29 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>R Markdown template to create assigment reports for UofG Data Analytics programmes. • uofgdataanalyticsreport</title>
-<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
+<title>uofgdataanalyticsreport • uofgdataanalyticsreport</title>
+<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/yeti/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="bootstrap-toc.css">
 <script src="bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
-<script src="pkgdown.js"></script><meta property="og:title" content="R Markdown template to create assigment reports for UofG Data Analytics programmes.">
-<meta property="og:description" content="Provides an R Markdown template to use in UofG Data Analytics reports.">
+<script src="pkgdown.js"></script><meta property="og:title" content="uofgdataanalyticsreport">
+<meta property="og:description" content="Template for UofG Data Analytics reports.">
+<meta property="og:image" content="https://carlosyanez.github.io/uofgdataanalyticsreport/img/bbox_ghcard.png">
+<meta property="og:image:alt" content="uofgdataanalyticsreport: Template for UofG Data Analytics reports">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@carlosyanez">
+<meta name="twitter:site" content="@carlosyanez">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+<![endif]--><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-G75W4FBYH8"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G75W4FBYH8');
+</script>
 </head>
 <body data-spy="scroll" data-target="#toc">
     <div class="container template-home">
@@ -59,7 +70,14 @@
   </ul>
 </li>
       </ul>
-<ul class="nav navbar-nav navbar-right"></ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+  <a href="https://github.com/carlosyanez/uofgdataanalyticsreport/">
+    <span class="fab fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
 </div>
 <!--/.nav-collapse -->
   </div>
@@ -89,10 +107,20 @@
 
   install.packages('uofgdataanalyticsreport')</a></code></pre>
 </div>
+<div id="how-to-use" class="section level2">
+<h2 class="hasAnchor">
+<a href="#how-to-use" class="anchor"></a>How to use</h2>
+<p><a href="https://carlosyanez.github.io/uofgdataanalyticsreport/articles/howto.html">How to use this template</a></p>
+</div>
 <div id="sample" class="section level2">
 <h2 class="hasAnchor">
 <a href="#sample" class="anchor"></a>Sample</h2>
 <p>Sample output <a href="example/Example.pdf">here</a></p>
+</div>
+<div id="issues-bugs-ideas" class="section level2">
+<h2 class="hasAnchor">
+<a href="#issues-bugs-ideas" class="anchor"></a>Issues? bugs? Ideas?</h2>
+<p>If you find something that is not quite right, please post an issue. If you have any ideas, or want to <strong>collaborate</strong> please let me know!</p>
 </div>
 <div id="credits-and-disclaimer" class="section level2">
 <h2 class="hasAnchor">
@@ -105,16 +133,25 @@
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
-    <div class="license">
+    <div class="links">
+<h2>Links</h2>
+<ul class="list-unstyled">
+<li>Browse source code at <br><a href="https://github.com/carlosyanez/uofgdataanalyticsreport/">https://​github.com/​carlosyanez/​uofgdataanalyticsreport/​</a>
+</li>
+</ul>
+</div>
+<div class="license">
 <h2>License</h2>
 <ul class="list-unstyled">
-<li>usethis::use_cc0_license()</li>
+<li><a href="LICENSE.html">Full license</a></li>
+<li><small>CC0</small></li>
 </ul>
 </div>
 <div class="developers">
 <h2>Developers</h2>
 <ul class="list-unstyled">
-<li>Carlos Yanez Santibanez <br><small class="roles"> Author, maintainer </small>  </li>
+<li>
+<a href="http://www.carlosyanez.cl">Carlos Yanez Santibanez</a> <br><small class="roles"> Author, maintainer </small>  </li>
 </ul>
 </div>
 
@@ -123,7 +160,7 @@
 
 
       <footer><div class="copyright">
-  <p>Developed by Carlos Yanez Santibanez.</p>
+  <p>Developed by <a href="http://www.carlosyanez.cl">Carlos Yanez Santibanez</a>.</p>
 </div>
 
 <div class="pkgdown">

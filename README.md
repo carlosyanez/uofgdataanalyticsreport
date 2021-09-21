@@ -19,10 +19,17 @@ Alternatively, you can install it from [r-universe](https://r-universe.dev/)
 
   install.packages('uofgdataanalyticsreport')
 ```
+## How to use 
 
+[How to use this template](https://carlosyanez.github.io/uofgdataanalyticsreport/articles/howto.html)
  
 ## Sample
 Sample output [here](example/Example.pdf)
+
+## Issues? bugs? Ideas?
+
+If you find something that is not quite right, please post an issue.
+If you have any ideas, or want to **collaborate** please let me know!
 
 
 ## Credits and disclaimer

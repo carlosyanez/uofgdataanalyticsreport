@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "carlos.yanez.s@gmail.com")
 Description: Provides an R Markdown template to use in UofG Data Analytics reports.
-License: usethis::use_cc0_license()
+License: CC0
 Depends:
     R (>= 4.0.0)
 Imports:
