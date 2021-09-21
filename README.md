@@ -1,3 +1,5 @@
+<img src="https://github.com/carlosyanez/uofgdataanalyticsreport/raw/main/img/hexSticker.png" width = "175" height = "200" align="right" border=0 style="border:0; text-decoration:none; outline:none"/>
+
 # uofgdataanalyticsreport
 Template for UofG Data Analytics Reports, using Google's Roboto font.
 
@@ -18,7 +20,7 @@ Alternatively, you can install it from [r-universe](https://r-universe.dev/)
 
 
  
-## Example
+## Sample
 Sample output [here](example/Example.pdf)
 
 
