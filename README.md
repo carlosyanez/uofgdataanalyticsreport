@@ -36,4 +36,4 @@ If you have any ideas, or want to **collaborate** please let me know!
 
 This template has been created using [{indiedown}](https://cynkra.github.io/indiedown/index.html).
 
-Images are logos are property of the University of Glasgow. They are used  here with the sole purpose of generating university reports or assignments.
+Images and logos are property of the University of Glasgow. They are used  here with the sole purpose of generating university reports or assignments.
