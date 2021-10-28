@@ -24,7 +24,7 @@ Alternatively, you can install it from [r-universe](https://r-universe.dev/)
 [How to use this template](https://carlosyanez.github.io/uofgdataanalyticsreport/articles/howto.html)
  
 ## Sample
-Sample output [here](example/Example.pdf)
+Sample output [here](https://github.com/carlosyanez/uofgdataanalyticsreport/blob/main/example/Example.pdf)
 
 ## Issues? bugs? Ideas?
 
