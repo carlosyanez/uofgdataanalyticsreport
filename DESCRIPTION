@@ -10,13 +10,14 @@ Description: Provides an R Markdown template to use in UofG Data Analytics repor
 License: CC0
 Depends:
     R (>= 4.0.0)
-Imports:
+Imports:    
     glue,
     knitr (>= 1.12),
     rmarkdown,
     utils,
     withr,
     yaml,
+    systemfonts,
     bookdown
 Encoding: UTF-8
 LazyData: true
