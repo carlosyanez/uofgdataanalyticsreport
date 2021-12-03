@@ -47,6 +47,7 @@ cd_page_title <- function(title = default(rmarkdown::metadata$title, "My Report"
    
     \vfill % Fill the rest of the page with whitespace
     \end{titlepage}
+    \newpage
     )"
   )
 }
