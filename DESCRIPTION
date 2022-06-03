@@ -1,6 +1,6 @@
 Package: uofgdataanalyticsreport
 Title: R Markdown template to create assigment reports for UofG Data Analytics programmes.
-Version: 0.3.1.0001
+Version: 0.3.1.0003
 Authors@R:
     person(given = "Carlos",
            family = "Yanez Santibanez",

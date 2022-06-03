@@ -12,6 +12,7 @@ lang            : en-GB
 output:
   bookdown::pdf_book:
     base_format: uofgdataanalyticsreport::uofgdataanalyticsreport
+    pandoc_args: --listings
     fig_caption: yes
     number_sections: yes
     toc: no
