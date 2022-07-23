@@ -63,3 +63,4 @@ inst/indiedown/.DS_Store
 .Rproj.user/10D101C3/pcs/files-pane.pper
 .Rproj.user/shared/notebooks/paths
 .Rproj.user/shared/notebooks/paths
+*.pper
