@@ -64,3 +64,5 @@ inst/indiedown/.DS_Store
 .Rproj.user/shared/notebooks/paths
 .Rproj.user/shared/notebooks/paths
 *.pper
+.Rproj.user/shared/notebooks/paths
+.Rhistory
