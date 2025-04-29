@@ -1,7 +1,7 @@
 template:
   params:
     bootswatch: yeti
-    ganalytics: G-G75W4FBYH8
+    ganalytics: G-V0FR1QV26R
   opengraph:
     image:
       src: img/bbox_ghcard.png
